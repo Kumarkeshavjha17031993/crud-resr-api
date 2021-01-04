@@ -25,7 +25,7 @@ public class EmployeeController {
 	@PostMapping("/employee")
 	public Employee save(@RequestBody Employee employeeObj) {
 		employeeService.save(employeeObj);
-		return employeeObj;
+		return  employeeObj;
 	}
 	
 	@GetMapping("/employee")
